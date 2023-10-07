@@ -1,4 +1,7 @@
-/*hello*/
+header{
+    background-color: #FFCCCB;
+}
+
 nav{
     background-color: #FFCCCB;
 }
@@ -17,7 +20,18 @@ nav p{
     font-size: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color: green;
+    background-color: #FCA5AF;
+    
+}
+
+nav p a{
+    text-decoration: none;
+    color: #AA336A;
+}
+
+nav p a:hover{
+    color:#FCA5AF;
+    background-color: #AA336A;
 }
 
 
@@ -31,6 +45,25 @@ nav p{
 }
 
 .content p{
-    width: 50%;
+    width: 70%;
 }
 
+#buttons{
+    margin-left: 2vh;
+}
+
+button{
+    background-color: #AA336A;
+    color:#FCA5AF;
+    border-style: none;
+    padding:3px;
+    margin:1px;
+}
+
+button :hover{
+    background-color: #6f2145;
+}
+
+footer{
+    background-color: #FFCCCB;
+}
