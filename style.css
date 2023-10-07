@@ -1,0 +1,36 @@
+/*hello*/
+nav{
+    background-color: #FFCCCB;
+}
+nav h4{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+h4 {
+    font-size: 60px;
+    text-align: center;
+    color: #AA336A;
+}
+
+nav p{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: green;
+}
+
+
+.content{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content p{
+    width: 50%;
+}
+
